@@ -1,0 +1,39 @@
+#navbar {
+    background: #68B4E3;
+    height: 62px;
+    position: relative;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    margin-top: 50px;
+    margin-left: -10px;
+    width: 100%;
+    font-family: Georgia, sans-serif;
+    color: black;
+    text-align: left overflow: hidden;
+}
+
+#van {
+    height: 140px;
+    margin-top: -55px;
+    margin-left: 15px;
+}
+
+.text {
+    margin-left: 270px;
+    margin-top: -250px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 220px;
+    margin-top: -80;
+    padding: 18px;
+}
+
+li {
+    display: inline;
+}
+
+body {
+    margin-left: 100px;
+}

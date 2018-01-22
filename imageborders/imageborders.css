@@ -1,0 +1,10 @@
+img { border: 2px solid #000; }
+
+.imgborder {border:2px dotted #33ff00;}
+
+.album img {border: 10px ridge #0066;
+        height: 174px; margin: 10px; padding:1px; 
+        border-top-left-radius: 40px;
+        border-bottom-right-radius: 40px}
+
+ 
