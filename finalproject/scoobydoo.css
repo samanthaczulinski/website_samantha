@@ -15,7 +15,7 @@
 #van {
     height: 140px;
     margin-top: -55px;
-    margin-left: 15px;
+    margin-left: -100px;
 }
 
 .text {
@@ -25,9 +25,10 @@
 
 ul {
     list-style-type: none;
-    margin-left: 220px;
+    margin-left: 100px;
     margin-top: -80;
-    padding: 18px;
+    padding: 20px;
+
 }
 
 li {
@@ -37,3 +38,4 @@ li {
 body {
     margin-left: 100px;
 }
+
