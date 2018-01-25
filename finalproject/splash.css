@@ -44,7 +44,7 @@
     height: 70px;
     border-top: 5px solid azure;
     border-bottom: 5px solid azure;
-    animation: clockwisepin 2s;
+    animation: clockwisepin 2s linear 3;
 }
 
 .loader2 {
@@ -54,7 +54,7 @@
     border-right: 5px solid darkturquoise;
     top: 5px;
     left: 5px;
-    animation: anticlockwisepin 2s;
+    animation: anticlockwisepin 2s linear 3;
 }
 
 @keyframes clockwisepin {
@@ -63,17 +63,17 @@
 
     }
     to {
-        transform: roatate(360deg);
+        transform: rotate(360deg);
     }
 }
 
 @keyframes anticlockwisepin {
 
     from {
-        transform: rotate(0deg);
+        transform: rotate(360deg);
     }
     to {
-        transform: roatate(360deg);
+        transform: rotate(0deg);
     }
 }
 

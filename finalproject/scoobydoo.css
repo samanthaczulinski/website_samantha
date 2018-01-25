@@ -21,6 +21,7 @@
 .text {
     margin-left: 270px;
     margin-top: -250px;
+    position: fixed;
 }
 
 ul {
@@ -38,4 +39,3 @@ li {
 body {
     margin-left: 100px;
 }
-
